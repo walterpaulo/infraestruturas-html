@@ -43,4 +43,21 @@ export const Item = styled.div`
     @media (max-width: 560px) {
         width: 100%;
     }
+    `
+export const Avatar = styled.div`
+    background-color: #062540;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    img{
+        background-image: fixed;
+        margin: auto;
+        
+    }
+    
 `
