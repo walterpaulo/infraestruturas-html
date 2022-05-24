@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 100vw;
-    height: calc(100vh - 184px);
+    height: calc(100vh - 420px);
 
     h4{
         color: #878383;
