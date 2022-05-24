@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Item } from './style';
-import { Tecnlogies } from '../../../data/Tecnlogies';
+import { Tecnlogies } from '../../data/Tecnlogies';
 
 function Box() {
     return (
