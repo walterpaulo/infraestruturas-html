@@ -21,4 +21,14 @@ export const Container = styled.div`
         text-transform: uppercase;
         margin-bottom: 80px;
     }
+    @media (max-width: 560px) {
+        h2{
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        h4{
+            font-size: 13px;
+        }
+
+    }
 `
