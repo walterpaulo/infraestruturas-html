@@ -1,10 +1,12 @@
 import React from 'react';
-import {Container} from './style'
+import {Container, Title} from './style'
 
 function Menu() {
     return (
         <Container>
-            Walter Paulo
+            <Title>
+                Walter Paulo
+            </Title>
         </Container>
     );
 }
