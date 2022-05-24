@@ -8,7 +8,7 @@ function Box() {
             { Tecnlogies.map((tecnology, key) =>(
                 <Item key={key}>
                    <h3>{tecnology.title}</h3>
-                <image>{tecnology.src}</image>
+                   <img alt={tecnology.name} src={tecnology.src} width="100px" height="auto"></img>
                 <h3>{tecnology.name}</h3> 
                 </Item>
             ))}
