@@ -1,30 +1,17 @@
 import React from 'react';
 import { Container, Item } from './style';
+import { Tecnlogies } from '../../../data/Tecnlogies';
 
 function Box() {
     return (
         <Container>
-            <Item>
-                <h3>Gerenciamento de Configurações</h3>
-                <image>image</image>
-                <h3>Ansible</h3>
-            </Item>
-            <Item>
-                <h3>Gerenciamento de Configurações</h3>
-                <image>image</image>
-                <h3>Ansible</h3>
-            </Item>
-            <Item>
-                <h3>Gerenciamento de Configurações</h3>
-                <image>image</image>
-                <h3>Ansible</h3>
-            </Item>
-            <Item>
-                <h3>Gerenciamento de Configurações</h3>
-                <image>image</image>
-                <h3>Ansible</h3>
-            </Item>
-            
+            { Tecnlogies.map(tecnology =>(
+                <Item>
+                   <h3>{tecnology.title}</h3>
+                <image>{tecnology.src}</image>
+                <h3>{tecnology.name}</h3> 
+                </Item>
+            ))}
         </Container>
     );
 }
