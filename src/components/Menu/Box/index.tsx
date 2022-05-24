@@ -5,8 +5,8 @@ import { Tecnlogies } from '../../../data/Tecnlogies';
 function Box() {
     return (
         <Container>
-            { Tecnlogies.map(tecnology =>(
-                <Item>
+            { Tecnlogies.map((tecnology, key) =>(
+                <Item key={key}>
                    <h3>{tecnology.title}</h3>
                 <image>{tecnology.src}</image>
                 <h3>{tecnology.name}</h3> 
